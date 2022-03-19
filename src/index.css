@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
+:root {
+  --primary-color: #5A8700;
+  --bg-body: #3f3f3f;
+  --bg-expenses: rgb(31, 31, 31);
+  --bg-expense-component: #4b4b4b;
+  --bg-date-component: #2a2a2a;
+
+  --boxes-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --border-radius: 12px;
+  --border-style: 1px solid;
+  --border-primary-color: white;
+  --border-secondary-color: #ececec;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10,6 +24,6 @@ html {
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: var(--bg-body);
 }
 
