@@ -2,10 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: var(--boxes-shadow);
   padding: 0.5rem;
   margin: 1rem 0;
-  border-radius: var(--border-radius);
   background-color: var(--bg-expense-component);
 }
 
