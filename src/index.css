@@ -2,10 +2,12 @@
 
 :root {
   --primary-color: #5A8700;
+  --dark-color: #304700;
   --bg-body: #3f3f3f;
   --bg-expenses: rgb(31, 31, 31);
   --bg-expense-component: #4b4b4b;
   --bg-date-component: #2a2a2a;
+  --bg-light: #A2D43F;
 
   --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   --border-radius: 12px;

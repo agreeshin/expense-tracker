@@ -1,0 +1,37 @@
+.new-expense {
+  background-color: var(--bg-light);
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: var(--border-radius);
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
+.new-expense button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: var(--border-radius);
+  margin-right: 1rem;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+  opacity: 0.9;
+}
+
+.new-expense button.alternative {
+  color: var(--dark-color);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-expense button.alternative:hover,
+.new-expense button.alternative:active {
+  opacity: 0.9;
+}
