@@ -7,7 +7,10 @@
   --bg-expenses: rgb(31, 31, 31);
   --bg-expense-component: #4b4b4b;
   --bg-date-component: #2a2a2a;
-  --bg-light: #A2D43F;
+  --bg-form: #A2D43F;
+  --bg-chart: #ecffc5;
+  --bg-chart-bar-inner: #c2bc87;
+  --bg-chart-bar-fill: #948507;
 
   --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   --border-radius: 12px;
